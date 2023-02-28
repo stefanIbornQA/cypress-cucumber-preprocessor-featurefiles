@@ -9,7 +9,7 @@
   "_id": "cypress-cucumber-preprocessor-featurefiles@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-BKUYXqoTeKzkPXohEczDtpAwRCY0ZPtIpfRwJut16yNLqdXQMV+aItwanxe3cbJTFlwg562NAjL4LMdiOhkAjg==",
-  "_location": "/cypress-cucumber-preprocessor",
+  "_location": "/cypress-cucumber-preprocessor-featurefiles",
   "_phantomChildren": {
     "babel-runtime": "6.26.0",
     "becke-ch--regex--s0-0-v1--base--pl--lib": "1.4.0",
@@ -61,7 +61,7 @@
     "cypress-tags": "cypress-tags.js"
   },
   "bugs": {
-    "url": "https://github.com/TheBrainFamily/cypress-cucumber-preprocessor/issues"
+    "url": "https://github.com/stefanIbornQA/cypress-cucumber-preprocessor-featurefiles"
   },
   "config": {
     "commitizen": {
@@ -101,7 +101,7 @@
     "prettier": "2.1.2",
     "semantic-release": "^17.1.1"
   },
-  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#readme",
+  "homepage": "https://github.com/stefanIbornQA/cypress-cucumber-preprocessor-featurefiles",
   "husky": {
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
@@ -135,10 +135,10 @@
     ]
   },
   "main": "lib/index.js",
-  "name": "cypress-cucumber-preprocessor",
+  "name": "cypress-cucumber-preprocessor-featurefiles",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-preprocessor.git"
+    "url": "git+https://github.com/stefanIbornQA/cypress-cucumber-preprocessor-featurefiles.git"
   },
   "scripts": {
     "fixStyle": "eslint . --fix",
